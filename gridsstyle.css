@@ -1,0 +1,7 @@
+.first-section-img-grid{
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit) ;
+    gap: 2rem;
+}

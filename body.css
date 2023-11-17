@@ -1,0 +1,796 @@
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+.first-section{
+    background-image:  url("22.jpg");
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.first-section-img-grid{
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px;
+    column-gap: 15px;
+    justify-content: center;
+    height: 155px;
+}
+
+.img-1-section{
+    object-fit: contain;
+    width: 235px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ok-img{
+    object-fit: cover;
+    width: 235px;
+    height: 155px;
+    border-radius: 10px;
+}
+.club-name{
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.name{
+    font-size: 120px;
+    font-weight: bold;
+}
+.game{
+    font-size: 30px;
+  
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    align-items: center; 
+    margin-top: 60px;
+}
+.spans{
+    margin-top: 30px;
+   }
+.second-section-title{
+    font-size: 80px;
+    font-family:cursive;
+   
+   }
+.third-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    background-color: whtie;
+    align-items: center;
+    justify-content: center;
+
+}
+.third-section-img{
+    display: grid;
+    grid-template-columns: 176px 176px 176px 176px 176px 176px ;
+    height: 186px;
+}
+.fourth-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 700px;
+
+}
+.fourth-section-img{
+    object-fit: contain;
+    overflow: hidden;
+    height: 700px;
+}
+.fourth-section-timetable{
+    background-color: #948218;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-span-timetable{
+    font-size: 84px;
+    color: white;
+}
+.second-span-timetable{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.same{
+    font-size: 18px;
+}
+.third-span-timetable, .fourth-span-timetable, .fifth-span-timetable, .sixth-span-timetable,.seventh-span-timetable {
+    color: #2f2e2e;
+}
+.fifth-span-timetable{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sixth-span-timetable{
+    margin-bottom: 12px;
+}
+.balls-span-timetable{
+    margin-top: 40px;
+}
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:200px;
+    background-color: white;
+    align-items: center;
+}
+.fifth-section-joinclub{
+    font-size: 84px;
+    color: black;
+   
+    text-decoration: none;
+}
+.fifth-section-getupdates{
+    color: #2f2e2e;
+}
+.sixth-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    height: 260px;
+    background-color: rgb(218, 213, 213);
+}
+.sixth-section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+.sixth-section-information{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.sixth-section-name{
+    font-family: serif ;
+    margin-top: 50px;
+    font-size: 84px;
+    color: #2f2e2e;
+
+}
+.sixth-section-name-game{
+    color: #605e5e;
+    font-size: 20px;
+}
+.sixth-section-span{
+    margin-bottom: 15px;
+    color: #605e5e;
+    font-size: 14px; 
+}
+.top{
+    margin-top: 15px;  
+}
+@media(min-width:1px) and (max-width: 337.24px){
+    .first-section{
+        background-image:  url("22.jpg");
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+ 
+    .first-section-img-grid{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        column-gap: 15px;
+        row-gap: 15px;
+        justify-content: center;
+        height: 100px;
+    }
+    .img-1-section{
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 150px;
+        align-items: center; 
+        margin-top: 30px;
+    }
+    .third-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 130px;
+        background-color: whtie;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .third-section-img{
+        display: grid;
+        grid-template-columns:40px 40px 40px 40px 40px 40px;
+        height: auto;
+    }
+    .third-section-img-drinks{
+        object-fit: contain;
+        width: 50px;
+        overflow: hidden;
+    }
+    
+    .name{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .game{
+        font-size: 10px;
+      
+    }
+    .second-section-title{
+        font-size: 20px;
+        font-family:cursive;
+       
+    }
+    .spans{
+        font-size: 7px;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 300px;
+    }
+    .fourth-section-img{
+        height: 210px;
+        width: auto;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .fourth-section-timetable{
+        background-color: #948218;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 210px;
+    }
+    
+    .first-span-timetable{
+        font-size: 25px;
+        color: white;
+    }
+    .second-span-timetable{
+        font-size: 8px;
+        font-weight: bold;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    
+    .same{
+        font-size: 7px;
+    }
+    .fifth-span-timetable{
+        font-weight: bold;
+       margin-top: 4px;
+       margin-bottom: 4px;
+    }
+    .sixth-span-timetable{
+        margin-bottom: 12px;
+    }
+    .balls-span-timetable{
+        width: 80px;
+        margin-top: 20px;
+    }
+    
+    .fifth-section-joinclub{
+        font-size: 45px;
+        color: black;
+       
+        text-decoration: none;
+    }
+    .fifth-section-getupdates{
+        color: #2f2e2e;
+        font-size: 10px;
+    }
+    .sixth-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        width: 100%;
+        height: 170px;
+        background-color: rgb(218, 213, 213);
+    }
+    
+    .sixth-section-name{
+        font-family: serif ;
+        margin-top: 50px;
+        font-size: 20px;
+        color: #2f2e2e;
+    
+    }
+    .sixth-section-name-game{
+        color: #605e5e;
+        font-size: 10px;
+    }
+    .sixth-section-span{
+        margin-bottom: 7px;
+        color: #605e5e;
+        font-size: 7px; 
+    }
+    .top{
+        margin-top: 10px;  
+    }
+}
+@media(min-width:337.25px) and (max-width: 699px){
+    .first-section{
+        background-image:  url("22\ \(3\).png");
+        object-fit: cover;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .first-section-img-grid{
+        display: grid;
+        grid-template-columns: 110px 110px;
+        column-gap: 15px;
+        row-gap: 15px;
+        justify-content: center;
+        height: 110px;
+        margin-top: 35px;
+    }
+    .img-1-section{
+        object-fit: cover;
+        width: 110px;
+        height: 110px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 110px;
+        align-items: center; 
+        margin-top: 30px;
+    }
+    .third-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 130px;
+        background-color: whtie;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .third-section-img{
+        display: grid;
+        grid-template-columns:40px 40px 40px 40px 40px 40px;
+        height: auto;
+    }
+    .third-section-img-drinks{
+        object-fit: contain;
+        width: 50px;
+        overflow: hidden;
+    }
+    
+    .name{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .game{
+        font-size: 15px;
+      
+    }
+    .second-section-title{
+        font-size: 25px;
+        font-family:cursive;
+       
+    }
+    .spans{
+        font-size: 7px;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 250px;
+    }
+    .fourth-section-img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .fourth-section-timetable{
+        background-color: #948218;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+    
+    .first-span-timetable{
+        font-size: 25px;
+        color: white;
+    }
+    .second-span-timetable{
+        font-size: 8px;
+        font-weight: bold;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    
+    .same{
+        font-size: 7px;
+    }
+    .fifth-span-timetable{
+        font-weight: bold;
+       margin-top: 4px;
+       margin-bottom: 4px;
+    }
+    .sixth-span-timetable{
+        margin-bottom: 12px;
+    }
+    .balls-span-timetable{
+        width: 130px;
+        margin-top: 20px;
+    }
+    
+    .fifth-section-joinclub{
+        font-size: 45px;
+        color: black;
+       
+        text-decoration: none;
+    }
+    .fifth-section-getupdates{
+        color: #2f2e2e;
+        font-size: 10px;
+    }
+    .sixth-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        width: 100%;
+        height: 170px;
+        background-color: rgb(218, 213, 213);
+    }
+    
+    .sixth-section-name{
+        font-family: serif ;
+        margin-top: 50px;
+        font-size: 25px;
+        color: #2f2e2e;
+    
+    }
+    .sixth-section-name-game{
+        color: #605e5e;
+        font-size: 10px;
+    }
+    .sixth-section-span{
+        margin-bottom: 7px;
+        color: #605e5e;
+        font-size: 10px; 
+    }
+    .top{
+        margin-top: 10px;  
+    }
+}
+@media (min-width:700px) and  (max-width: 750px) {
+    .first-section-img-grid{
+        display: grid;
+        grid-template-columns: 130px 130px 130px 130px;
+        column-gap: 15px;
+        justify-content: center;
+        height: 130px;
+        margin-top: 40px;
+    }
+    .img-1-section{
+        object-fit: cover;
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .third-section-img{
+        display: grid;
+        grid-template-columns:  70px 70px 70px 70px 70px 70px;
+        height: auto;
+    }
+    .third-section-img-drinks{
+        object-fit: cover;
+        width: 70px;
+        overflow: hidden;
+    }
+    
+    .name{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .game{
+        font-size: 15px;
+      
+    }
+    .second-section-title{
+        font-size: 25px;
+        font-family:cursive;
+       
+    }
+    .spans{
+        font-size: 10px;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 360px;
+    }
+    .fourth-section-img{
+        height: 360px;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .fourth-section-timetable{
+        background-color: #948218;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 360px;
+    }
+    
+    .first-span-timetable{
+        font-size: 45px;
+        color: white;
+    }
+    .second-span-timetable{
+        font-size: 12px;
+        font-weight: bold;
+      margin: 0;
+    }
+    
+    .same{
+        font-size: 12px;
+    }
+    .fifth-span-timetable{
+        font-weight: bold;
+        margin: 0;
+    }
+    .sixth-span-timetable{
+        margin-bottom: 12px;
+    }
+    .balls-span-timetable{
+        margin-top: 20px;
+    }
+    
+    .fifth-section-joinclub{
+        font-size: 45px;
+        color: black;
+       
+        text-decoration: none;
+    }
+    .fifth-section-getupdates{
+        color: #2f2e2e;
+        font-size: 10px;
+    }
+    
+    .sixth-section-name{
+        font-family: serif ;
+        margin-top: 50px;
+        font-size: 35px;
+        color: #2f2e2e;
+    
+    }
+    .sixth-section-name-game{
+        color: #605e5e;
+        font-size: 10px;
+    }
+    
+}
+@media (min-width: 751px) and (max-width: 1100px) {
+    .first-section{
+        background-image:  url("22.jpg");
+        object-fit: contain;
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .first-section-img-grid{
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        column-gap: 15px;
+        justify-content: center;
+        margin-top: 45px;
+        
+    }
+    .img-1-section{
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    .third-section-img{
+        display: grid;
+        grid-template-columns: 110px 110px 110px 110px 110px 110px ;
+        height: auto;
+    }
+    .third-section-img-drinks{
+        object-fit: contain;
+        width: 110px;
+        overflow: hidden;
+    }
+     .name{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .game{
+        font-size: 25px;
+      
+    }
+    .second-section-title{
+        font-size: 60px;
+        font-family:cursive;
+       
+    }
+    .spans{
+        font-size: 20px;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 300px;
+    }
+    .fourth-section-img{
+        height: 360px;
+        object-fit: cover;
+        width: 100%;
+        overflow: hidden;
+    }
+    .fourth-section-timetable{
+        background-color: #948218;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 360px;
+    }
+    .first-span-timetable{
+        font-size: 60px;
+        color: white;
+    }
+    .second-span-timetable{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    .same{
+        font-size: 15px;
+    }
+    .fifth-span-timetable{
+        font-weight: bold;
+        margin: 0;
+    }
+    .sixth-span-timetable{
+        margin-bottom: 12px;
+    }
+    .balls-span-timetable{
+        margin-top: 20px;
+    }
+    .fifth-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:250px;
+        background-color: white;
+        align-items: center;
+    }
+    .fifth-section-joinclub{
+        font-size: 70px;
+        color: black;
+       
+        text-decoration: none;
+    }
+    .fifth-section-getupdates{
+        color: #2f2e2e;
+        font-size: 15px;
+    }
+    .sixth-section-name{
+        font-family: serif ;
+        margin-top: 50px;
+        font-size: 60px;
+        color: #2f2e2e;
+    
+    }
+    .sixth-section-name-game{
+        color: #605e5e;
+        font-size: 20px;
+    }
+    
+    
+    
+
+
+}
+@media (min-width: 1101px) {
+    .first-section-img-grid{
+        display: grid;
+        grid-template-columns: 235px 235px 235px 235px;
+        column-gap: 15px;
+        justify-content: center;
+        height: 235px;
+    }
+    .img-1-section{
+        height: 235px;
+        width: 235px;
+        object-fit: cover;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .third-section-img{
+        display: grid;
+        grid-template-columns: 176px 176px 176px 176px 176px 176px ;
+        height: 186px;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 700px;
+    
+    }
+    .fourth-section-img{
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        height: 700px;
+    }
+    .fourth-section-timetable{
+        background-color: #948218;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
